@@ -29,5 +29,6 @@ public class Main {
             System.out.println("Luvun tulee olla välillä 1-3, aloita alusta!");
 
         }
+
     }
 }

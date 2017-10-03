@@ -9,7 +9,7 @@ public class Yleistieto2017 {
     public void yleistieto(){
 
         Scanner s = new Scanner(System.in);
-        Visailu visa = new Visailu();
+        Visailu3 visa = new Visailu3();
         // tervehdys
         System.out.println("Tervetuloa Yleistieto2017-visaan!");
         System.out.println("Visassa on kymmenen kysymystä, joista jokaisessa on kolme vastausvaihtoehtoa.");

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Kysymys {
+public class Kysymys3 {
  private String kysymys;
  private int oikeavastaus;
  private ArrayList<String> vastausVaihtoehdot = new ArrayList<>();
@@ -29,3 +29,4 @@ public class Kysymys {
     this.vastausVaihtoehdot = vastausVaihtoehdot;
  }
  }
+//tämä on kommentti Sonja
