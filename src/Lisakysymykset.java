@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Lisakysymykset {
@@ -37,5 +38,10 @@ public class Lisakysymykset {
         k3.setVastausVaihtoehdot(vastausvaihtoehdot3);
         k3.setOikeaVastaus(1);
         kysymykset.add(k3);
+
+        Collections.shuffle(kysymykset);
+
+        this.counter = 0;
+        this.pisteet = 0;
     }
 }
