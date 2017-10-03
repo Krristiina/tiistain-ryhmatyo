@@ -2,23 +2,40 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Lisakysymykset {
-    List<String> kysymykset;
+    private int counter;
+    private int pisteet;
+    List<Kysymys> kysymykset = new ArrayList<>();
 
-    public Lisakysymykset(List<String> kysymykset) {
-        this.kysymykset = kysymykset;
-    }
 
     public void kysyLisaa() {
-        this.kysymykset = new ArrayList<>();
-        kysymykset.add("Mikä viikonpäivä aloittaa viikon?(A: Maanantai B: Tiistai C: Keskiviikko)");
-        kysymykset.add("Kuka kirjoitti romaanin Vuonna 1984?(A: Huxley B: Orwell C:Shakespeare)");
-        kysymykset.add("Mikä on Espanjan pääkaupunki? (A: Barcelona B: Lissabon C: Madrid)");
-        kysymykset.add("Mikä on Suomen pääkaupunki? (A: Helsinki B: Turku C: Rovaniemi");
-        kysymykset.add("Kuinka paljon on 2+2? (A: 4 B: 5 C: 2");
-        kysymykset.add("Mikä on maaiman suurin kaupunki? (A: Sao Paulo B: New York C: Tokio");
-        kysymykset.add("Kuka maalasi Guernican? (A: Dalí B: Picasso C: Van Gogh)");
-        kysymykset.add("Kenen kuuluisa lausahdus on 'Ajattelen siis olen' A: Socrates B: Descartes C: Nero");
-        kysymykset.add("Kuinka monta Oscaria Hitchcock voitti? A: 4 B: 1 C: 0");
-        kysymykset.add("Beatlesin rumpali oli: A: Ringo Starr B: Charlie Watts  C: Lars Ulrich");
+        Kysymys k1 = new Kysymys();
+        k1.setKysymys("Mikä Euroviisubiisi voitti Eurovision-laulukisat vuonna 1975?");
+        ArrayList<String> vastausvaihtoehdot1 = new ArrayList<>();
+        vastausvaihtoehdot1.add("Waterloo");
+        vastausvaihtoehdot1.add("Ding a Dong");
+        vastausvaihtoehdot1.add("Hallelujah");
+        k1.setVastausVaihtoehdot(vastausvaihtoehdot1);
+        k1.setOikeaVastaus(1);
+        kysymykset.add(k1);
+
+        Kysymys k2 = new Kysymys();
+        k2.setKysymys("Minä vuonna alkoi ranskan vallankumous?");
+        ArrayList<String> vastausvaihtoehdot2 = new ArrayList<>();
+        vastausvaihtoehdot2.add("1798");
+        vastausvaihtoehdot2.add("1897");
+        vastausvaihtoehdot2.add("1978");
+        k2.setVastausVaihtoehdot(vastausvaihtoehdot2);
+        k2.setOikeaVastaus(0);
+        kysymykset.add(k2);
+
+        Kysymys k3 = new Kysymys();
+        k3.setKysymys("Onko Suomen koripallomaajoukkueen lempinimi?");
+        ArrayList<String> vastausvaihtoehdot3 = new ArrayList<>();
+        vastausvaihtoehdot3.add("Kettuposse");
+        vastausvaihtoehdot3.add("Susijengi");
+        vastausvaihtoehdot3.add("Karhuryhmä");
+        k3.setVastausVaihtoehdot(vastausvaihtoehdot3);
+        k3.setOikeaVastaus(1);
+        kysymykset.add(k3);
     }
 }

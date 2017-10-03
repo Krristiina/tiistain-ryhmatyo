@@ -21,6 +21,8 @@ public class Main {
             System.out.println("Valitse oikea vaihtoehto a, b tai c");
             Main2 m2 = new Main2();
             m2.pelaa();
+            Lisakysymykset lisa = new Lisakysymykset();
+            lisa.kysyLisaa();
         } else if (num == 3) {
             Yleistieto2017 yt = new Yleistieto2017();
             yt.yleistieto();
