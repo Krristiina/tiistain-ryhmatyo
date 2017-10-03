@@ -1,0 +1,11 @@
+Kuka on Academic Workin toimitusjohtaja?,Tommi Teräsvirta,Stefan Heinrichs,Jukka Pulkkinen,1
+Kuka on Suomen ensimmäinen presidentti?,Ståhlberg,Svinhufvud,Relander,0
+Mitä tarkoittaa %d?,String,Liukuluku,Kokonaisluku,2
+Kannattaako tyhjää catch -haaraa koodata?,Tottakai,Ilman muuta,Ei,2
+Paljonko on 3+4*2?,14,11,12,1
+Mikä oli Koiviston presidenttikausi?,1972-1984,1982-1994,1986-1994,1
+Kuka näyttelee Macgyveria?,Richard Anderson,Chuch Norris,Dana Elcar,0
+Mitä tapahtuu 15.joulukuuta?,Suomen itsenäisyyspäivä,20 valmista IT-konsulttia valmistuu,Presidentin vaalit,1
+Mikä maa voitti Euroviisut vuonna 2014?,Itävalta,Ruotsi,Ukraina,0
+Missä seuraavista tietorakenteideista hyödynnetään FIFO -periaatetta?,Pino,Jono,Keko,1
+Mikä on Javassa varattu avainsana?,Interface,int,True,0
