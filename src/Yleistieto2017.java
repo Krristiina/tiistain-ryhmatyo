@@ -6,7 +6,7 @@ import java.util.Scanner;
  */
 public class Yleistieto2017 {
 
-    public static void main(String[] args) {
+    public void yleistieto(){
 
         Scanner s = new Scanner(System.in);
         Visailu visa = new Visailu();
