@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
  */
 public class Yleistieto2017GUI extends JFrame {
 
-    public Yleistieto2017GUI(Visailu3 visa) {
+    public Yleistieto2017GUI(Visailu visa) {
 
         setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
 
@@ -67,7 +67,7 @@ public class Yleistieto2017GUI extends JFrame {
     }
 
     public static void main(String[] args) {
-        Visailu3 v = new Visailu3();
+        Visailu v = new Visailu();
         Yleistieto2017GUI game = new Yleistieto2017GUI(v);
     }
 }
