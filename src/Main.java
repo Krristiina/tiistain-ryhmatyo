@@ -16,7 +16,7 @@ public class Main {
             // pelaa peliä 3
         }
         else {
-            System.out.println("Syöte ei kelpaa");
+            System.out.println("Syöte ei kelpaa!");
 
         }
     }
