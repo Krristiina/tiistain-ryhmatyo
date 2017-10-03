@@ -13,7 +13,7 @@ public class Main2 {
     static List<Kysymys2> lista = new ArrayList<>();
     private static final String polku = "src/Kysymykset2.txt";
 
-    public static void main(String[] args) {
+    public void pelaa() {
         lueTiedosto();
 
         Collections.shuffle(lista);
