@@ -3,6 +3,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Visailu {
+    private int testi;
     private int counter;
     private int pisteet;
     List<Kysymys> kysymykset = new ArrayList<>();
